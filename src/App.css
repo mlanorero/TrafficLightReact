@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.sostiene {
+  height: 35px;
+  width: 5px;
+  background-color: black;
+  margin: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.soporte {
+  height: 140px;
+  width: 50px;
+  background-color: black;
+  margin-top: -50px;
+  margin-left: 30px;
+  border-radius: 5px;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.soporte .rojo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(190, 4, 4);
+  margin: 5px;
+  position: relative;
+  top: 6px
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.soporte .amarillo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(172, 172, 3);
+  margin: 5px;
+  position: relative;
+  top: 3px;
 }
-
-.App-link {
-  color: #61dafb;
+.soporte .verde {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(2, 92, 2);
+  margin: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rojo:active{
+  box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+.amarillo:active{
+  box-shadow: #f8ffcc 0px 0px 50px 20px;
+}
+.verde:active{
+  box-shadow: #f8ffcc 0px 0px 50px 20px;
 }
